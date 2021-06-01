@@ -1,0 +1,44 @@
+
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  body {
+    background-image: url('images/background.png');
+  }
+
+  header {
+  background-color:  rgba(202, 240, 251, 255);
+  padding: 15px;
+  align-items: center;
+  text-align: center;
+  }
+
+  form {
+  
+    background-color: red;
+    width: 15%;
+    padding: 80px;
+    border-radius: 10px;
+    position: absolute;
+    top: 250px;
+    left: 150px;
+  }
+
+  table {
+
+    background-color: aqua;
+    padding: 80px;
+    border-radius: 10px;
+    float: right;
+    position: absolute;
+    top: 250px;
+    right: 150px;
+  }
