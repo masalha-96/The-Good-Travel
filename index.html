@@ -11,23 +11,78 @@
 
 <body>
 
+    <header>
+        <h1>
+            The Good Travel
+        </h1>
+    </header>
 
-    <form>
+
+    <form id="form">
         <label for="placeName">Place name:</label><br>
         <input type="text" id="placeName" name="placeName" placeholder="Place name" required><br>
-        
-        <label for="tripPlace">Last name:</label><br>
+
+        <br>
+        <br>
+
+        <label for="tripPlace">Trip place:</label><br>
         <select id="tripPlace" name="tripPlace">
             <option value="hawaii">HAWAII</option>
             <option value="london">LONDON</option>
             <option value="paris">PARIS</option>
             <option value="italy">ITALY</option>
             <option value="slovakia">SLOVAKIA</option>
-            <option value="malaysia">MALAYSIA
-            </option>
-          </select>
+            <option value="malaysia">MALAYSIA</option>
+        </select>
 
-      </form>
+
+        <br>
+        <br>
+
+
+        <label for="transport">Tybe of Transport:</label><br>
+        <select id="transport" name="transport">
+            <option value="car">CAR</option>
+            <option value="train">TRAIN</option>
+            <option value="flight">FLIGHT</option>
+            <option value="cruise">CRUISE</option>
+        </select>
+
+        <br>
+        <br>
+
+        <button type="submit" id="submit" name="submit"> Submit </button>
+
+    </form>
+
+    <br>
+    <br>
+
+
+    <table id="table" >
+        <!-- <tr>
+            <th>
+                <img src="images/places/HAWAII.jpg" alt="">
+            </th>
+            <th>
+                <p>1</p>
+                <p>2</p>
+                <p>3</p>
+            </th>
+        </tr> -->
+
+        <!-- <tr>
+          <td>Alfreds Futterkiste</td>
+          <td>Maria Anders</td>
+        </tr>
+
+        <tr>
+          <td>Centro comercial Moctezuma</td>
+          <td>Francisco Chang</td>
+        </tr> -->
+
+    </table>
+
 
     <script src="app.js"></script>
 </body>
